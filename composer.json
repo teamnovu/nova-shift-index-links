@@ -1,5 +1,5 @@
 {
-    "name": "pavloniym/swipe-index-links",
+    "name": "pavloniym/nova-swipe-index-links",
     "description": "A Laravel Nova field to move index links to custom position",
     "keywords": [
         "laravel",
