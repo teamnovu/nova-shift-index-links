@@ -1,13 +1,13 @@
 <?php
 
-namespace Pavloniym\SwipeIndexLinks;
+namespace Pavloniym\ShiftIndexLinks;
 
 use Laravel\Nova\Fields\Field;
 
 /**
  * @method static static make()
  */
-class SwipeIndexLinks extends Field
+class ShiftIndexLinks extends Field
 {
 
     /**
@@ -15,7 +15,7 @@ class SwipeIndexLinks extends Field
      *
      * @var string
      */
-    public $component = 'swipe-index-links';
+    public $component = 'shift-index-links';
 
 
     /**
@@ -49,7 +49,7 @@ class SwipeIndexLinks extends Field
      */
     public function __construct()
     {
-        parent::__construct('SwipeIndexLinks');
+        parent::__construct('ShiftIndexLinks');
     }
 
 

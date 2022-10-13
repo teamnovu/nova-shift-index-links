@@ -1,6 +1,6 @@
 <?php
 
-namespace Pavloniym\SwipeIndexLinks;
+namespace Pavloniym\ShiftIndexLinks;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
@@ -16,8 +16,7 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('swipe-index-links', __DIR__.'/../dist/js/field.js');
-            Nova::style('swipe-index-links', __DIR__.'/../dist/css/field.css');
+            Nova::script('shift-index-links', __DIR__.'/../dist/js/field.js');
         });
     }
 

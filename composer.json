@@ -1,11 +1,11 @@
 {
-    "name": "pavloniym/nova-swipe-index-links",
+    "name": "pavloniym/nova-shift-index-links",
     "description": "A Laravel Nova field to move index links to custom position",
     "keywords": [
         "laravel",
         "nova",
         "index links",
-        "swipe index links"
+        "shift index links"
     ],
     "license": "MIT",
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Pavloniym\\SwipeIndexLinks\\": "src/"
+            "Pavloniym\\ShiftIndexLinks\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pavloniym\\SwipeIndexLinks\\FieldServiceProvider"
+                "Pavloniym\\ShiftIndexLinks\\FieldServiceProvider"
             ]
         }
     },
